@@ -1,0 +1,53 @@
+body {
+  background-color:#B2B19E;
+}
+
+h1{
+  color: #000000;
+  text-align: center;
+}
+
+.tags-field {
+
+  display: flex;
+  width: 80%;
+  min-height: 40px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #40bc40;
+  box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
+  margin-bottom: 20px;
+
+}
+
+.tags-field__item {
+
+padding: 5px 10px;
+background-color: pink;
+border-radius: 10px;
+margin: 5px;
+box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
+cursor: pointer;
+font-size: 16px;
+font-family: serif sans-serif;
+border: 1px solid transparent;
+}
+
+.tags-field__item:hover {
+  border: 1px solid brown;
+  transition-duration: 0.5s;
+}
+
+
+.tags-field__input {
+  width: 100px;
+  font-size: 14px;
+  font-family: serif sans-serif;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 5px;
+  margin: 5px;
+}
